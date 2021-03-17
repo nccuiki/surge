@@ -1,4 +1,6 @@
-#!name=nccuiki_script.js module
+
+#!name=nccuiki.script
+#!desc=常用脚本
 
 
 [MITM]
