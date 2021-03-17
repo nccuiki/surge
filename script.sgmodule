@@ -1,5 +1,5 @@
-#!name=nccuiki.script module
-#!desc=常用脚本
+!name=nccuiki.script module
+!desc=常用脚本
 
 
 [MITM]
