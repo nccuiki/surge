@@ -1,6 +1,3 @@
-#!name=nccuiki.script module
-#!desc=常用脚本
-
 
 [MITM]
 hostname = %INSERT% ios.prod.ftl.netflix.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com,vsco.co,api.vuevideo.net,ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi,mb3admin.com,ap*.intsig.net,pay.wecut.com,weixin110.qq.com
