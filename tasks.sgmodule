@@ -11,8 +11,8 @@ Tasks: 电视家 = type=cron,cronexp=0 0 7,22 * * *,script-path=https://raw.gith
 Tasks: 微博钱包 = type=cron,cronexp=10 10 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 
 #中青看点
-Tasks: 中青看点 = type=cron,cronexp=*/10 5-23 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, timeout=180, enabled=true
+Tasks: 中青看点 = type=cron,cronexp=*/15 5-23 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, timeout=180, enabled=true
 
 Tasks: 中青看点点点赚 = type=cron,cronexp=30 */4 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, timeout=1800, enabled=true
 
-Tasks: 中青看点阅读 = type=cron,cronexp=10 */2 * * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, timeout=3600, enabled=true
+Tasks: 中青看点阅读 = type=cron,cronexp=10 */2 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, timeout=3600, enabled=true
