@@ -1,9 +1,5 @@
 # Streaming Media
-# (Podcast)
-# > Himalaya
-USER-AGENT,Himalaya*
-DOMAIN-SUFFIX,himalaya.com
-# (Music)
+
 # > Deezer
 USER-AGENT,Deezer*
 DOMAIN-SUFFIX,deezer.com
@@ -36,7 +32,7 @@ DOMAIN-KEYWORD,-spotify-com
 # > TIDAL
 USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
-# >去除 YouTubeMusic
+
 
 # (Video)
 # > AbemaTV
@@ -50,7 +46,24 @@ DOMAIN-KEYWORD,abematv.akamaized.net
 USER-AGENT,All4*
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
-
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN,atv-ps.amazon.com
+DOMAIN,fls-na.amazon.com
+DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+DOMAIN,d22qjgkvxw22r6.cloudfront.net
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+DOMAIN,d27xxe7juh1us6.cloudfront.net
+DOMAIN-KEYWORD,avoddashs
 # > Apple TV
 DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
@@ -170,7 +183,7 @@ DOMAIN-SUFFIX,tvb.com
 USER-AGENT,Naver%20TV*
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,smartmediarep.com
-#去除netflix
+
 # > niconico
 USER-AGENT,Niconico*
 DOMAIN-SUFFIX,dmc.nico
@@ -229,7 +242,6 @@ DOMAIN,api.viu.now.com
 DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
 DOMAIN,dfp6rglgjqszk.cloudfront.net
-# 去除youtube
 # > 加入Twitter，走美区
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
