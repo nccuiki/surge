@@ -36,9 +36,8 @@ DOMAIN-KEYWORD,-spotify-com
 # > TIDAL
 USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
-# > YouTubeMusic
-USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,YouTubeMusic*
+# >去除 YouTubeMusic
+
 # (Video)
 # > AbemaTV
 USER-AGENT,AbemaTV*
@@ -51,7 +50,7 @@ DOMAIN-KEYWORD,abematv.akamaized.net
 USER-AGENT,All4*
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
-# > Amazon Prime Video(来自ihei)
+# > Amazon Prime Video(来自ihei)没有生效
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 USER-AGENT,InstantVideo.US*
