@@ -2,7 +2,6 @@
 #此规则可以解除GFW对该软件及管网的封锁
 #单纯自用
 
-[Rule]
 DOMAIN,kakao.com
 DOMAIN-SUFFIX,kakao.com
 DOMAIN-KEYWORD,kakao
